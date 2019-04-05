@@ -1,6 +1,6 @@
 (* あらかじめ ex05_3.ml, ex08_3.ml を読み込んでおく必要あり *) 
-#use "/Users/user/ocaml_lesson/5/3.ml" 
-#use "/Users/user/ocaml_lesson/8/3.ml" 
+#use "/Users/user/ocaml_lesson/5/3.ml" ;;
+#use "/Users/user/ocaml_lesson/8/3.ml" ;;
  
 (* person_t list 型のデータの例 *) 
 let lst1 = [] 
@@ -26,8 +26,8 @@ let test3 = otomeza lst3 = []
 let test4 = otomeza lst4 = ["浅井"] 
 let test5 = otomeza lst5 = ["浅井"; "浅井"];;
 
-Printf.printf "%B" test1;;            (* prints true *)
-Printf.printf "%B" test2;;            (* prints true *)
-Printf.printf "%B" test3;;            (* prints true *)
-Printf.printf "%B" test4;;            (* prints true *)
-Printf.printf "%B" test5;;            (* prints true *)
+Printf.printf "%B" test1;;
+Printf.printf "%B" test2;;
+Printf.printf "%B" test3;;
+Printf.printf "%B" test4;;
+Printf.printf "%B" test5;;
